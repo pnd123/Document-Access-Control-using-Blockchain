@@ -1,0 +1,11 @@
+[
+  {
+    "index": 0,
+    "timestamp": 0,
+    "filename": "genesis",
+    "cid": "0",
+    "uploader": "0x0",
+    "previous_hash": "0",
+    "hash": "genesis_hash"
+  }
+]
