@@ -1,40 +1,57 @@
-# Decentralized File Storage System
+# 🔐 Web3Vault – A Decentralized Blockchain-Based File Storage Platform
 
-Web-based application for secure file storage on the blockchain
+A secure, privacy-first platform for encrypted file storage, sharing, and access control—powered by Web3 and IPFS.
 
-## Overview
+---
 
-The Decentralized File Storage System is a web-based application built on web3 technology that enables users to securely upload and store files on the blockchain. It allows users to access and view their files directly from the browser when connected to the same wallet. Additionally, users can share files with other users by leveraging the allowlist feature, which allows specific addresses to access the shared files. Furthermore, the system provides the ability to disallow specific addresses from viewing the files, ensuring privacy and control over shared content.
+## 🚀 Overview
 
-## Features
+**Web3Vault** is a decentralized file storage platform built on blockchain principles, designed for privacy-focused users and developers. It allows seamless uploading, encrypted storage, and access management of files using smart contracts and IPFS. Users remain in full control of their data through wallet-based authentication and cryptographic sharing permissions.
 
-- **File Upload on Blockchain**: Users can upload their files to the blockchain, ensuring their data is securely stored and tamper-proof.
+Whether you're storing personal documents or sharing sensitive files with specific users, Web3Vault ensures tamper-proof, decentralized, and auditable access—without relying on centralized cloud providers.
 
-- **Direct Browser Access**: Users can directly access and view their files through a web browser when connected to the same wallet.
+---
 
-- **File Sharing**: Users can share files with other users by adding their addresses to the allowlist, granting them access to the shared content.
+## 🛠️ Key Features
 
-- **Allowlist Management**: Users can easily manage the allowlist by adding or removing addresses, controlling who can view the shared files.
+- ✅ **Decentralized File Upload**  
+  Upload and store files using IPFS and blockchain-based metadata for immutability and censorship resistance.
 
-- **Privacy and Security**: The system provides privacy and security by allowing users to disallow specific addresses from accessing their files, maintaining control over shared content.
+- 🔓 **Wallet-Based Access**  
+  Files are viewable only when connected to the same Web3 wallet that uploaded them—no accounts, no passwords.
 
-## Tech Stack
+- 🤝 **Encrypted File Sharing**  
+  Share access securely by whitelisting wallet addresses. Only authorized users can decrypt and view files.
 
-- Front-end: HTML, CSS, JavaScript
+- 🧩 **Dynamic Access Control**  
+  Add or revoke address permissions in real-time. No more irreversible sharing—stay in control always.
 
-- Back-end : Solidity, Hardhat(localhost) [Later deployed on mumbai testnet]
+- 🛡️ **Zero-Trust Privacy Model**  
+  Even nodes storing your data can’t read it. Files are encrypted client-side before storage.
 
-- Blockchain Integration: Web3.js
+---
 
-- API: Axios
+## 🧰 Tech Stack
 
-- Framework: ReactJS
+| Layer        | Technology |
+|--------------|------------|
+| **Frontend** | React.js, HTML5, CSS3 |
+| **Smart Contracts** | Solidity (Hardhat) – Deployed to Polygon Mumbai |
+| **Blockchain Integration** | Web3.js |
+| **APIs** | Axios |
+| **File Storage** | Pinata (IPFS) |
 
-- Storage: Pinata
+---
 
-## Demo
+---
 
-https://file-storage-system.vercel.app/
+## ⚙️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/pnd123/Document-Access-Control-using-Blockchain.git
+
 
 ## Installation
 
@@ -42,7 +59,7 @@ https://file-storage-system.vercel.app/
 
    ```shell
 
-   git clone https://github.com/Bhanu1776/File-Storage-System
+   git clone https://github.com/pnd123/Document-Access-Control-using-Blockchain.git
 
    ```
 
@@ -89,30 +106,24 @@ npm start
 
 Contributions are welcome! If you would like to contribute to this project, please follow these steps:
 
-1. Fork the repository.
+1. Fork this repository.
 
-2. Create a new branch for your feature or bug fix.
+2. Create a new branch (git checkout -b feature-name).
 
-3. Make your changes and commit them with descriptive commit messages.
+3. Commit your changes (git commit -am 'Add new feature').
 
-4. Push your changes to your forked repository.
+4. Push to the branch (git push origin feature-name).
 
-5. Submit a pull request to the main repository.
+5. Open a Pull Request.
 
 
 ## Contributors 💣
 
-<a href="https://github.com/Bhanu1776/File-Storage-System/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Bhanu1776/File-Storage-System" />
-</a>
+| Name    | GitHub                               |
+| ------- | ------------------------------------ |
+| Prasann | [@pnd123](https://github.com/pnd123) |
 
-## Support Me 🫂
-
-<a href="https://www.buymeacoffee.com/Bhanu1776"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
 
 <hr>
 
-© 2023 Bhanu Sunka and contributors\
-This project is licensed under the [**MIT license**](https://github.com/Bhanu1776/File-Storage-System/blob/master/LICENSE).
-
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+© 2025 Prasann Daddikar and contributors
